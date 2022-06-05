@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>API Project</title>
+</head>
+<body>
+    <div class="container p-5 d-flex flex-column justify-content-center align-items-center">
+        <h1 style="text-align:center;">
+            Git Hub Profile Finder
+        </h1>
+        <form id="myForm" autocomplete="off">
+            <div class="form-group m-5">
+                <input class="form-control" type="text" id="search" placeholder="Enter userName" required>
+            </div>
+            <div class="form-group m-4">
+                <button class="btn btn-info btn-block w-100">
+                    Search USer
+                </button>
+            </div>
+        </form>
+        <div id="resultName" class="mt-4"></div>
+        <div id="result" class="mt-3"></div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
